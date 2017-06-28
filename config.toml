@@ -1,0 +1,28 @@
+baseurl = "http://hugo.spf13.com/"
+title = "Kamba Blog"
+author = "Kamba"
+
+# Number of blogs you want to list on a single page.
+paginate = 5
+paginatePath  ="page"
+
+[params]
+  googleAnalytics = ""
+
+  # To integrate discourse commenting system and also to display discourse in the footer.
+  discourse = "https://discuss.dgraph.io"
+
+
+  # Website url, used to have a link in the footer as well as on the top.
+  website = "https://dgraph.io"
+
+  # Twitter handle for sharing the post via
+  twitter = "usekamba"
+
+  facebook = "usekamba"
+
+  # Website demo url, used on the top.
+  demo = "https://dgraph.io"
+
+
+copyright = "Copyright (c) 2016 - 2017, Usekamba, LDA. Todos diretos reservados."

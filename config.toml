@@ -1,6 +1,12 @@
-baseurl = "http://hugo.spf13.com/"
+baseurl = "http://blog.usekamba.com/"
 title = "Kamba Blog"
 author = "Kamba"
+theme = "hugo-dgraph-theme"
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
 
 # Number of blogs you want to list on a single page.
 paginate = 5
@@ -10,7 +16,7 @@ paginatePath  ="page"
   googleAnalytics = ""
 
   # To integrate discourse commenting system and also to display discourse in the footer.
-  discourse = "https://discuss.dgraph.io"
+  discourse = "https://usekamba-blog.disqus.com"
 
 
   # Website url, used to have a link in the footer as well as on the top.
@@ -25,4 +31,4 @@ paginatePath  ="page"
   demo = "https://dgraph.io"
 
 
-copyright = "Copyright (c) 2016 - 2017, Usekamba, LDA. Todos diretos reservados."
+copyright = "Copyright (C) 2016 - 2017, Usekamba, LDA. Todos diretos reservados."
